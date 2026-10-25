@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(243, 247, 253);
+}
+header {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241));
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+h1 {
+  color: white;
+}
+header p {
+  color: rgb(235, 240, 255);
+}
+.container1 {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.task-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+#task-input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid rgb(203, 213, 225);
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+#add-button {
+  flex-shrink: 0;
+  background-color: rgb(59, 130, 246);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#add-button:hover {
+  background-color: rgb(37, 99, 235);
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.editbutton {
+  background-color: rgb(47, 156, 123);
+  color: white;
+  border-radius: 6px;
+  padding: 8px 8px;
+  margin-left: auto;
+}
+
+.deletebutton {
+  background-color: rgb(255, 71, 76);
+  color: white;
+  border-radius: 6px;
+  padding: 8px 8px;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+}
+
+ul {
+  background-color: rgb(236, 253, 245);
+  color: rgb(4, 4, 4);
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(226, 232, 240);
+  padding: 16px 20px;
+  min-height: 56px;
+  margin: 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.todo1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 12px;
+  background-color: rgb(243, 247, 253);
+}
+.completed {
+  text-decoration: line-through;
+  color: rgb(107, 114, 128);
+}

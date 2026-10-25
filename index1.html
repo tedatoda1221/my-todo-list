@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My to-do list</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My to-do-list</h1>
+      <p>Stay organized, get things done!</p>
+    </header>
+    <section class="todo">
+      <div class="container1">
+        <input type="text" id="task-input" placeholder="Enter a new task..." />
+        <button id="add-button">+ Add Task</button>
+      </div>
+      <div class="tasklist">
+        <ul id="task-list">
+          <li class="task-item">
+            <input type="checkbox" /><span> learning class</span
+            ><button class="editbutton">Edit</button
+            ><button class="deletebutton">Delete</button>
+          </li>
+          <li class="task-item">
+            <input type="checkbox" /><span> finish my project</span
+            ><button class="editbutton">Edit</button
+            ><button class="deletebutton">Delete</button>
+          </li>
+          <li class="task-item">
+            <input type="checkbox" /><span> go for a run</span
+            ><button class="editbutton">Edit</button
+            ><button class="deletebutton">Delete</button>
+          </li>
+          <li class="task-item">
+            <input type="checkbox" /><span> read a book</span
+            ><button class="editbutton">Edit</button
+            ><button class="deletebutton">Delete</button>
+          </li>
+          <li class="task-item">
+            <input type="checkbox" /><span> call mom</span
+            ><button class="editbutton">Edit</button
+            ><button class="deletebutton">Delete</button>
+          </li>
+        </ul>
+      </div>
+      <div class="todo1">
+        <p id="taskcounter">0 of 5 tasks completed</p>
+        <progress id="progressBar" value="0" max="5"></progress>
+        <p id="percentage">0%</p>
+      </div>
+    </section>
+    <script src="todo.js"></script>
+  </body>
+</html>
